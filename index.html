@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Linking Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- Linking Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Varela+Round&display=swap" rel="stylesheet">
+
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="Assets/style.css" />    
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="hdr text-center">
+      <h1 class="display-3">Work Day Scheduler</h1>      
+      <p id="today" class="lead"></p>
+    </header>
+
+    <!-- Timeblocks from 8AM to 5PM -->
+    <div class="box">
+    <div class="container">
+      <!-- Timeblock 8AM -->
+      <div class="row time-block" id="8">
+        <div class="col-1 hour pt-2">8AM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 9AM -->
+      <div class="row time-block" id="9">
+        <div class="col-1 hour pt-2">9AM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 10AM -->
+      <div class="row time-block" id="10">
+        <div class="col-1 hour pt-2">10AM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 11AM -->
+      <div class="row time-block" id="11">
+        <div class="col-1 hour pt-2">11AM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 12PM -->
+      <div class="row time-block" id="12">
+        <div class="col-1 hour pt-2" value="12PM">12PM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 1PM -->
+      <div class="row time-block" id="13">
+        <div class="col-1 hour pt-2">1PM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 2PM -->
+      <div class="row time-block" id="14">
+        <div class="col-1 hour pt-2">2PM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 3PM -->
+      <div class="row time-block" id="15">
+        <div class="col-1 hour pt-2">3PM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 4PM -->
+      <div class="row time-block" id="16">
+        <div class="col-1 hour pt-2">4PM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- Timeblock 5PM -->
+      <div class="row time-block" id="17">
+        <div class="col-1 hour pt-2">5PM</div>
+        <textarea class="col-10 plan"></textarea>
+        <button class="col-1 save"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
+  </div>
+
+    <!-- JavaScript Scripts: jQuery, Moment.js, Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="Assets/script.js"></script>
+  </body>
+</html>
